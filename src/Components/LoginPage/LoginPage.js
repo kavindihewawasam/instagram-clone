@@ -15,23 +15,26 @@ export class LoginPage extends Component {
     return (
       <div>
         <Grid container>
-          <Grid item xs={3}>
-            Hello
-          </Grid>
+          <Grid item xs={3}></Grid>
           <Grid item xs={6}>
             <div className="loginpage_main">
               <div>
                 <img src={inst_image} width="450" />
               </div>
+              <div>
+                <div className="loginpage_rightcomponent">
+                  <img className="loginpage_logo" src={inst_logo} />
 
-              <div className="loginpage_rightcomponent">
-                <img className="loginpage_logo" src={inst_logo} />
+                  <div className="loginPage_signin">
+                    <input className="loginpage_text" type="text" />
+                    <input className="loginpage_text" type="password" />
+                    <button className="login_button">Sign In</button>
+                  </div>
+                </div>
               </div>
             </div>
           </Grid>
-          <Grid item xs={3}>
-            Simplilearn
-          </Grid>
+          <Grid item xs={3}></Grid>
         </Grid>
       </div>
     );
