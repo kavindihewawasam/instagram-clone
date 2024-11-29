@@ -1,6 +1,8 @@
 import React, { Component } from "react";
+import "./LoginPage.css";
 import { Grid } from "@material-ui/core";
-import inst_image from "../../images/9364675fb26a.svg";
+import inst_image from "../../images/insta_image.svg";
+import inst_logo from "../../images/logoinsta.png";
 
 export class LoginPage extends Component {
   constructor(props) {
@@ -17,9 +19,13 @@ export class LoginPage extends Component {
             Hello
           </Grid>
           <Grid item xs={6}>
-            <div>
+            <div className="loginpage_main">
               <div>
                 <img src={inst_image} width="450" />
+              </div>
+
+              <div className="loginpage_rightcomponent">
+                <img className="loginpage_logo" src={inst_logo} />
               </div>
             </div>
           </Grid>
