@@ -26,8 +26,16 @@ export class LoginPage extends Component {
                   <img className="loginpage_logo" src={inst_logo} />
 
                   <div className="loginPage_signin">
-                    <input className="loginpage_text" type="text" />
-                    <input className="loginpage_text" type="password" />
+                    <input
+                      className="loginpage_text"
+                      type="text"
+                      placeholder="Phone number, username or email"
+                    />
+                    <input
+                      className="loginpage_text"
+                      type="password"
+                      placeholder="Password"
+                    />
                     <button className="login_button">Sign In</button>
                   </div>
                 </div>
