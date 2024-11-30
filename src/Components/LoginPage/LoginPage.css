@@ -1,3 +1,7 @@
+body{
+  background-color: #fafafa;
+}
+
 .loginpage_main{
     display:flex;
     margin: 25px;
@@ -13,6 +17,7 @@
     border: 1px solid #dbdbdd;
     margin-top: 25px;
     text-align: center;
+    background-color: white;
 }
 .loginPage_signin{
   margin-top: 25px;
@@ -31,7 +36,50 @@
   height: 36px;
   border-radius: 5px;
   font-weight: bold;
+  margin-top: 5px;
   border: 1px solid #0395F6;
   background-color: #0395F6;
   color: white;
+}
+.login_ordiv {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+.login_dividor {
+  width: 80px;
+  height: 0px;
+  margin-top: 10px;
+  border:1px solid #DBDBDB;
+  
+}
+
+.login_or {
+  margin: 0px 10px;
+  font-weight: bold;
+  color: #8E8E8E;
+}
+
+.login_fb{
+  color: #395185;
+  font-weight: bold;
+  margin-top: 30px;
+}
+.loginpage_signupoption{
+  margin-top: 25px;
+  height: 56px;
+  width: 350px;
+  border: 1px solid #dbdbdd;
+  background-color: white;
+  display: flex;
+  align-items: center; 
+  justify-content: center; 
+  text-align: center; 
+}
+.loginPage_signin{
+  margin-top: 20px;
+}
+.loginPage_signup {
+  text-align: center;
+  margin-top: 20px;
 }
