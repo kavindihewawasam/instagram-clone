@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import "./Home.css";
+import NavBar from "../NavBar/NavBar";
+import MainContent from "../MainContent/MainContent";
 
 export class Home extends Component {
   constructor(props) {
@@ -8,7 +10,12 @@ export class Home extends Component {
     this.state = {};
   }
   render() {
-    return <div>Home</div>;
+    return (
+      <div>
+        <NavBar />
+        <MainContent />
+      </div>
+    );
   }
 }
 
