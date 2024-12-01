@@ -4,6 +4,8 @@ import { Grid } from "@material-ui/core";
 import inst_image from "../../images/insta_image.svg";
 import inst_logo from "../../images/logoinsta.png";
 import fb from "../../images/fb.png";
+import microsoft from "../../images/Get_it_from_Microsoft_Badge.png";
+import playstore from "../../images/play.png";
 
 export class LoginPage extends Component {
   constructor(props) {
@@ -53,11 +55,25 @@ export class LoginPage extends Component {
                 </div>
 
                 <div className="loginpage_signupoption">
-                  <div className="loginpagesignin">
+                  <div className="loginpage_signin">
                     Don't have an account? Sign up
                   </div>
                 </div>
                 <div className="loginPage_signup">Get the app</div>
+                <div className="loginPage_option">
+                  <img
+                    className="loginPage_dwing"
+                    src={playstore}
+                    alt="Google Play Store"
+                    width={"136px"}
+                  />
+                  <img
+                    className="loginPage_dwing"
+                    src={microsoft}
+                    alt="Microsoft Store"
+                    width={"136px"}
+                  />
+                </div>
               </div>
             </div>
           </Grid>

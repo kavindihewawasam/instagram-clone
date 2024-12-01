@@ -81,5 +81,14 @@ body{
 }
 .loginPage_signup {
   text-align: center;
-  margin-top: 20px;
+  margin-top: 10px;
+}
+.loginPage_option {
+  margin-top: 10px;
+  text-align: center;
+}
+.loginPage_dwing {
+  margin: 3px;
+  height: 40px;
+  object-fit: contain; 
 }
