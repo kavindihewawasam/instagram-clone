@@ -8,7 +8,7 @@ export class MainContent extends Component {
     this.state = {};
   }
   render() {
-    return <div>MainContent</div>;
+    return <div></div>;
   }
 }
 
