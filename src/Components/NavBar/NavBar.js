@@ -51,3 +51,5 @@ export class NavBar extends Component {
 }
 
 export default NavBar;
+
+// The Avatar component is primarily designed to display a profile image or placeholder in a circular shape
